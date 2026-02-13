@@ -7,7 +7,7 @@ Built using **React** and **Tailwind CSS**.
 ---
 
 ## 🚀 Live Demo
-https://counter-sb94.vercel.app/
+👀🔗 https://counter-sb94.vercel.app/
 
 ---
 
@@ -46,5 +46,4 @@ https://counter-sb94.vercel.app/
 
 ---
 
-## 📂 Project Structure
 
