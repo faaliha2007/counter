@@ -10,7 +10,7 @@ root.render(
 <>
 
     <App />
-     <Game/>
+  
    
    
 </>
