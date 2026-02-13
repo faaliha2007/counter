@@ -35,7 +35,7 @@ function App() {
   }
 
   function increment() {
-    if(status != "playing") return;
+    if(status !== "playing") return;
 
     const newcount = count + 1
     const newmoves = moves - 1
@@ -45,7 +45,7 @@ function App() {
   
   }
   function decrement() {
-      if(status != "playing") return;
+      if(status !== "playing") return;
 
     const newcount = count - 1
     const newmoves = moves - 1
@@ -76,14 +76,14 @@ function App() {
 
         <h1 className='text-3xl font-bold mb-6 text-center text-cyan-400'>🎮 Balance Counter</h1>
 
-        {status == "start" && (
+        {status === "start" && (
           <div className="text-center">
             <button onClick={startgame} className="px-6 py-3 bg-cyan-400  rounded-xl transition font-semibold">Start Game</button>
           </div>
 
         )}
 
-        {status != "start" && (
+        {status !== "start" && (
           <>
             <div className="text-center text-gray-400 mb-4">Safe Zone : {min} - {max}</div>
 
